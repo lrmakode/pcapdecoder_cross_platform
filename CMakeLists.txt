@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8.11)
+project (PCAPDecoder)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+file(GLOB TUS src/*.cpp)
+add_executable(PCAPDecode ${TUS})
